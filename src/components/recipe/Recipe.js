@@ -30,6 +30,7 @@ export default function Recipe() {
       })
       .catch((e) => {
         setLoading(false);
+        console.log(e);
         setError(e);
       });
   }, [id]);

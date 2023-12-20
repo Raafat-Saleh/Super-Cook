@@ -37,6 +37,7 @@ function App() {
       })
       .catch((e) => {
         setSearchLoading(false);
+        console.log(e);
         setSearchError("Somthing wrong was happen");
       });
   };
